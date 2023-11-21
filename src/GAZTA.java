@@ -17,7 +17,7 @@ public class GAZTA {
         Scanner s = new Scanner(System.in);
         System.out.println("Sartu gazta mota (Idiazabal edo Urdina,): ");
         gazta_mota = s.nextLine();
-        System.out.println("Sartu gazta kantitatea (zenbaki osoa): ");
+        System.out.println("Sartu gazta kantitatea (zenbaki osoa;): ");
         esne_kantitatea = s.nextInt();
         switch (gazta_mota.toLowerCase()) {
             case "idiazabal":
